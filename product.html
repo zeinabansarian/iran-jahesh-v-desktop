@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/outputDesk.css">
 </head>
 <body>
-    <div class="poduct">
-        <section class="section1 relative flex items-center justify-center">
+    <div class="poduct relative overflow-hidden">
+        <div class="lineWater absolute z-10 left-[35%]">
+            <svg width="653" height="3469" viewBox="0 0 653 3469" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="linePath"  d="M50.7386 -284C217.404 -26.8284 547.936 579.875 536.736 949.318C522.736 1411.12 160.738 1438.77 14.7388 2019.48C-131.26 2600.19 942.733 2766.11 574.735 3922" stroke="url(#paint0_angular_80_108)" stroke-width="2"/>
+              <defs>
+              <radialGradient id="paint0_angular_80_108" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(282.37 3113.15) rotate(90) scale(3397.15 369.63)">
+              <stop stop-color="#F6F6F6"/>
+              <stop offset="0.333333" stop-color="#00A0DD" stop-opacity="0.17"/>
+              <stop offset="0.364583" stop-color="white" stop-opacity="0.56"/>
+              <stop offset="1" stop-color="#00A0DD" stop-opacity="0.17"/>
+              </radialGradient>
+              </defs>
+              </svg>
+              
+              <img class="movingImage duration-700" id="movingImage" src="images/drop-a7f56da4e20cecfc0e712317b6ad2865.gif" alt="Moving Image" width="50" height="50" style="position:absolute;width: 0;">
+          </div>
+        <section class="section1 overflow-hidden after:w-full after:h-full after:bg-[#003B8E87] after:absolute after:z-0 min-h-[100vh] relative flex items-center pb-20" style="background: url('images/fantastic-background-with-water-drop - Copy 1.jpg');">
 
-            <div class="imgS relative after:w-full after:h-full after:bg">
-                <img class="w-full" src="images/fantastic-background-with-water-drop - Copy 1.jpg" alt="@name">
-            </div>
-            <div class="overLeft absolute left-[5%]">
+          
+            <div class="overLeft pl-[5%] z-1 left-[5%] pb-5 pt-28" style="z-index: 11;">
                 <div class="flex items-center justify-center relative">
 
                     <div class="imgS">
@@ -23,18 +37,18 @@
                         <img class="" src="images/CP3 1.png" alt="@name">
                     </div>
                 </div>
-                <div class="mText mt-4 text-center font-IRANSansWeb(FaNum)700 text-White text-3xl">
-                    <p>
+                <div class="mText mt-4 justify-center flex items-center gap-x-1 text-center font-IRANSansWeb(FaNum)700 text-White text-3xl">
+                    <p class="">
                         Model : 
                         
-                        <span>
+                        <h2 class="inline-block">
 
                             Cp3
-                        </span>
+                        </h2>
                     </p>
                 </div>
             </div>
-            <div class="overRight absolute flex flex-col items-center right-36">
+            <div class="overRight z-1 absolute flex flex-col items-center right-36">
                 <div class="imgS">
                     <img src="images/Pumps-1_05 1.png" alt="@name">
                 </div>
@@ -43,30 +57,160 @@
                 </h1>
             </div>
 
-            <div class="ocean">
+            <div class="ocean z-1">
                 <div class="wave"></div>
                 <div class="wave"></div>
                 <div class="wave"></div>
               </div>
         </section>
-        <section class="section">
+       
+        <section class="section2 mt-14">
 
+            <div class="inner flex gap-x-[85px] justify-center w-full px-5 max-w-[1089px] mx-auto">
+                <div class="lSide w-full" dir="rtl">
+                    <h3 class="text-blue-text font-IRANSansWeb(FaNum)700 text-2xl mb-4">
+                        مشخصات
+                    </h3>
+                    <ul>
+                        <li class="flex border-b border-blue-4 py-2 justify-between items-center text-base">
+                            <p class="font-IRANYekan300">
+                                نوع پمپ طبقاتی
+    
+                            </p>
+                            <div class="schema">
+                                <span>
+                                    عمودی
+                                </span>
+                                <i class="last:hidden">,</i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rSec w-full max-w-[524px]" style="z-index:11">
+                    <div class="sliderSection clipPathSection">
+                        <div class="swiper h-full proGallery">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <div class="imgS h-full">
+                                    <img class="w-auto h-full" src="images/fantastic-background-with-water-drop - Copy 1.jpg" alt="@name">
+                                </div>
+                              </div>
+                           
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination proPagination"></div>
+                          
+                          </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="section">
+        <section class="section3 overflow-hidden h-[716px] mb-14 flex justify-center items-end relative">
+            <div class="ocean3 z-1">
+                <div class="waves -rotate-6">
 
-        </section>
-        <section class="section">
+                    <div class="wave3"></div>
+                    <div class="wave3"></div>
+                    <div class="wave3"></div>
+                </div>
 
+                <div class="backG h-full z-0 -rotate-6"></div>
+              </div>
+            <div class="imgS flex relative items-center justify-center" style="z-index: 11;">
+                <img src="images/Pumps-1_01 1.png" alt="@name">
+            </div>
         </section>
-        <section class="section">
+        <section class="section4 mb-11 relative " style="z-index: 11;">
+            <div class="flex items-center justify-center px-5 gap-x-1.5">
+                <div class="lSide overflow-hidden w-full max-w-[618px]">
+                    <div class="swiper modelSwiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide">
+                            <div class="imgS">
+                                <img src="images/Pumps-1_09 1.png" alt="@name">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgS">
+                                <img src="images/Pumps-1_09 1.png" alt="@name">
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination !bottom-0 modelPagination"></div>
+                      
+                     
+                      </div>
+                </div>
+               
+                <div class="imgS">
+                    <img src="images/Pumps-1_13 1.png" alt="@name">
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="inner bg-blue-2">
 
-        </section>
-        <section class="section">
+                <div class="title pr-[5%] py-12 flex items-center gap-x-2 " dir="rtl">
+                    <div class="icon">
+                        <img src="images/—Pngtree—blue round waterdrop illustration_5446285 3.png" alt="    Pngtree—blue">
+                    </div>
+                    <p class="font-IRANSansWeb(FaNum)700 text-2xl text-blue-4">
+                        محصولات مرتبط
+                    </p>
+                </div>
 
-        </section>
-        <section class="section">
+                <div class="sliderSection relative" style="z-index: 11;">
+                    <div class="swiper relatedPro pb-[75px]" dir="rtl">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide group">
+                            
 
+                            <a class="relative bg-White rounded-lg overflow-hidden block" href="" title="@title">
+                                <div class="imgS flex overflow-hidden justify-center items-center">
+                                    <img class="w-full group-hover:scale-125 duration-1000" src="images/fantastic-background-with-water-drop - Copy 1.jpg" alt="@title" title=@title>
+                                </div>
+                                <div class="over absolute bottom-0 left-0">
+                                    <div class="titleIn flex relative items-center justify-center">
+
+                                        <img src="images/Vector 303.png" alt="">
+
+                                        <span class="absolute group-hover:text-blue-4 duration-500 font-Biotif700 text-White text-sm">
+                                            CP2
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                          </div>
+                       
+                     
+                      
+                        </div>
+                     
+                      
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar relatedProScrollbar !w-[634px] left-0 right-0 mx-auto bg-White !h-[2px]"></div>
+                      </div>
+                  
+                </div>
+            </div>
         </section>
+        <footer style="height: 30vh;">
+
+        </footer>
     </div>
+
+    <script src="js/swiper-bundle11.0.5.min.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/scrollTrigger.js"></script>
+    <script src="js/MotionPathPlugin.min.js"></script>
+    <script src="js/product.js"></script>
 </body>
 </html>

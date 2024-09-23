@@ -26,15 +26,17 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'bluw-4':'#2BC0DD',
+      'blue-4':'#2BC0DD',
       'blue-3':'#003B8E',
       'blue-2':'#01073F',
+      'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
       'White':'#ffff',
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
-      'IranYekan400': ['IranYekan400', 'IranYekan400'],
+      'IRANYekan300': ['IRANYekan300', 'IRANYekan300'],
+      'Biotif700': ['Biotif700', 'Biotif700'],
      
     
         

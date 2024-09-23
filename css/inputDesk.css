@@ -3,62 +3,207 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "IRANSansWeb(FaNum)700";
-    src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-    src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-        format("embedded-opentype"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: "IRANSansWeb(FaNum)700";
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANYekan300";
+  src: url("../_fonts/IRANYekanLight.eot");
+  src: url("../_fonts/IRANYekanLight.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanLight.woff") format("woff"),
+    url("../_fonts/IRANYekanLight.woff2") format("woff2"),
+    url("../_fonts/IRANYekanLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Biotif700";
+  src: url("../_fonts/Biotif-Bold.eot");
+  src: url("../_fonts/Biotif-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/Biotif-Bold.woff") format("woff"),
+    url("../_fonts/Biotif-Bold.woff2") format("woff2"),
+    url("../_fonts/Biotif-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
+.ocean {
+  height: 80px; /* change the height of the waves here */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+}
 
+.wave {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23fff'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  -webkit-animation: wave 14s infinite;
+  animation: wave 14s infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
 
-  .ocean {
-    height: 80px; /* change the height of the waves here */
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow-x: hidden;
+.wave:nth-of-type(2) {
+  bottom: 0;
+  animation: wave 18s infinite;
+  opacity: 0.4;
+}
+
+.wave:nth-of-type(3) {
+  bottom: 0;
+  -webkit-animation: wave 24s infinite;
+  animation: wave 24s infinite;
+  opacity: 0.2;
+}
+
+.ocean3 {
+  height: 100%; /* change the height of the waves here */
+  width: 100%;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  /* overflow-x: hidden; */
+}
+
+.wave3 {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23cdf1ff'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 200%;
+  height: 90px;
+  -webkit-animation: wave 14s infinite;
+  animation: wave 14s infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.wave3:nth-of-type(2) {
+  top: 0;
+  animation: wave 18s infinite;
+  opacity: 0.4;
+}
+
+.wave3:nth-of-type(3) {
+  top: 0;
+  -webkit-animation: wave 24s infinite;
+  animation: wave 24s infinite;
+  opacity: 0.2;
+}
+.backG {
+  width: 120%;
+  margin-top: 40px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 45%,
+    rgba(205, 241, 255, 1) 100%
+  );
+}
+@-webkit-keyframes wave {
+  0% {
+    transform: translateX(0);
   }
-  
-  .wave {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23003F7C'/%3E%3C/svg%3E");
-    position: absolute;
-    width: 200%;
-    height: 100%;
-    -webkit-animation: wave 10s -3s linear infinite;
-            animation: wave 10s -3s linear infinite;
-    transform: translate3d(0, 0, 0);
-    opacity: 0.8;
+  50% {
+    transform: translateX(-50%);
   }
-  
-  .wave:nth-of-type(2) {
-    bottom: 0;
-    animation: wave 18s linear reverse infinite;
-    opacity: 0.5;
+  100% {
+    transform: translateX(0);
   }
-  
-  .wave:nth-of-type(3) {
-    bottom: 0;
-    -webkit-animation: wave 20s -1s linear infinite;
-            animation: wave 20s -1s linear infinite;
-    opacity: 0.5;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
   }
-  
-  @-webkit-keyframes wave {
-      0% {transform: translateX(0);}
-      50% {transform: translateX(-50%);}
-      100% {transform: translateX(0);}
+  50% {
+    transform: translateX(-50%);
   }
-  
-  @keyframes wave {
-      0% {transform: translateX(0);}
-      50% {transform: translateX(-50%);}
-      100% {transform: translateX(0);}
+  100% {
+    transform: translateX(0);
   }
+}
+
+.clipPathSection {
+  width: 100%;
+  height: 371px;
+  background-color: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* سایه به شکل موجی */
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 87.55%,
+    2% 88.02%,
+    4% 88.57%,
+    6% 89.2%,
+    8% 89.9%,
+    10% 90.66%,
+    12% 91.45%,
+    14% 92.27%,
+    16% 93.1%,
+    18% 93.92%,
+    20% 94.72%,
+    22% 95.49%,
+    24% 96.19%,
+    26% 96.84%,
+    28% 97.4%,
+    30% 97.88%,
+    32% 98.26%,
+    34% 98.54%,
+    36% 98.7%,
+    38% 98.75%,
+    40% 98.69%,
+    42% 98.51%,
+    44% 98.22%,
+    46% 97.83%,
+    48% 97.34%,
+    50% 96.76%,
+    52% 96.11%,
+    54% 95.4%,
+    56% 94.63%,
+    58% 93.82%,
+    60% 93%,
+    62% 92.17%,
+    64% 91.36%,
+    66% 90.56%,
+    68% 89.82%,
+    70% 89.12%,
+    72% 88.5%,
+    74% 87.96%,
+    76% 87.5%,
+    78% 87.15%,
+    80% 86.91%,
+    82% 86.78%,
+    84% 86.76%,
+    86% 86.85%,
+    88% 87.06%,
+    90% 87.38%,
+    92% 87.79%,
+    94% 88.31%,
+    96% 88.91%,
+    98% 89.58%,
+    100% 90.31%
+  );
+}
+
+.relatedProScrollbar .swiper-scrollbar-drag {
+  background-color: #0c4da2;
+}
+
+.activeMoveImg{
+  transform: scale(1)!important;
+}
