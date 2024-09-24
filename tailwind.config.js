@@ -31,13 +31,14 @@ module.exports = {
       'blue-2':'#01073F',
       'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
+      'before-blue':'#00BDF2',
       'White':'#ffff',
       'black':'#000000',
     },
     fontFamily: {
-      'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
-      'IRANYekan300': ['IRANYekan300', 'IRANYekan300'],
-      'Biotif700': ['Biotif700', 'Biotif700'],
+      'IRANSansWeb(FaNum)700': ['"IRANSansWeb(FaNum)700"'],
+      'IRANYekan300': ['"IRANYekan300"'],
+      'Biotif700': ['"Biotif700"'],
      
     
         

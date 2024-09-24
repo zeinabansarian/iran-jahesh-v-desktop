@@ -212,3 +212,7 @@
 .contactUs .address p{
 display: inline;
 }
+
+.proSlide2Scrollbar .swiper-scrollbar-drag , .proSlide1Scrollbar .swiper-scrollbar-drag{
+background-color: #01073F;
+}
