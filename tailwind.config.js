@@ -32,6 +32,7 @@ module.exports = {
       'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
       'White':'#ffff',
+      'black':'#000000',
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
