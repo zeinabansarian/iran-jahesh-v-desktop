@@ -15,6 +15,18 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "IRANSansWeb(FaNum)400";
+  src: url("../_fonts/IRANSansWebRegular.eot");
+  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
+    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
+    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "IRANYekan300";
   src: url("../_fonts/IRANYekanLight.eot");
   src: url("../_fonts/IRANYekanLight.eot?#iefix") format("embedded-opentype"),
@@ -215,4 +227,43 @@ display: inline;
 
 .proSlide2Scrollbar .swiper-scrollbar-drag , .proSlide1Scrollbar .swiper-scrollbar-drag{
 background-color: #01073F;
+}
+.menuContainer{
+  transform: translateY(-100%);
+}
+
+.activeMenuContainer{
+  transform: translateY(0)!important;
+
+}
+
+
+.blueHaeder rect ,.blueHaeder path {
+  
+stroke: #003B8E;
+  
+}
+.blueHaeder path {
+  
+  fill: #003B8E;
+    
+  }
+.blueHaeder .menuBar span{
+  color: #003B8E;
+}
+
+header rect , header path , .menuBar span{
+transition: 0.7s;
+}
+
+.openSearchContainer{
+  transform: scale(1)!important;
+}
+.opensearchBtn .open{
+opacity: 0;
+z-index: 0!important;
+}
+.opensearchBtn .close{
+opacity: 1!important;
+z-index: 1!important;
 }

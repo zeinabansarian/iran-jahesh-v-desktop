@@ -37,6 +37,7 @@ module.exports = {
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['"IRANSansWeb(FaNum)700"'],
+      'IRANSansWeb(FaNum)400': ['"IRANSansWeb(FaNum)400"'],
       'IRANYekan300': ['"IRANYekan300"'],
       'Biotif700': ['"Biotif700"'],
      
