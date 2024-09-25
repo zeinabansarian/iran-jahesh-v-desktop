@@ -26,12 +26,19 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'bluw-4':'#2BC0DD',
+      'blue-4':'#2BC0DD',
       'blue-3':'#003B8E',
       'blue-2':'#01073F',
+      'blue-1':'#00A0DD',
+      'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
+      'before-blue':'#00BDF2',
+      'lightGay':'#E5E5E5',
+      'input':'#A1A1AA',
+      'orange':'#FF5C00',
       'White':'#ffff',
-      'blue-5':'#0C4DA2'
+      'blue-5':'#0C4DA2',
+      'black':'#000000',
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
@@ -39,13 +46,24 @@ module.exports = {
       'IranYekan400': ['IranYekan400', 'IranYekan400'],
       'IranYekan500': ['IranYekan500', 'IranYekan500'],
       'IranYekan700': ['IranYekan700', 'IranYekan700'],
-
+      'IRANSansWeb(FaNum)700': ['"IRANSansWeb(FaNum)700"'],
+      'IRANSansWeb(FaNum)400': ['"IRANSansWeb(FaNum)400"'],
+      'IRANYekan300': ['"IRANYekan300"'],
+      'IRANYekan400': ['"IRANYekan400"'],
+      'IRANYekan500': ['"IRANYekan500"'],
+      'Sahitya400': ['"Sahitya400"'],
+      'Biotif700': ['"Biotif700"'], 
      'Biotif300':['Biotif300','Biotif300'],
      'Biotif400':['Biotif400','Biotif400'],
      'Biotif500':['Biotif500','Biotif500'],
      'Biotif700':['Biotif700','Biotif700'],
      'Biotif800':['Biotif800','Biotif800'],
      'Biotif900':['Biotif900','Biotif900'],        
+      
+
+    },
+    fontFamily: {
+     
     },
   
     

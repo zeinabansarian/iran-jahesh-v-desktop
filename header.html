@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/outputDesk.css" />
+</head>
+
+<body style="background-color: black">
+    <header class="fixed w-full z-50">
+        <div class="inner py-6 w-90p mx-auto flex justify-between items-center">
+            <div class="logo">
+                <a href="/" title="ایران جهش">
+                    <img src="images/Logo-2023_01 3.png" alt="ایران جهش" title="ایران جهش" />
+                </a>
+            </div>
+
+            <div class="rightSec flex gap-x-7 items-center">
+                <div class="searchBtn cursor-pointer relative flex items-center justify-center">
+                    <div class="open z-1 duration-500">
+
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                            d="M13.9495 0.00028044C6.25796 0.00028044 0 6.29406 0 14.0296C0 21.7651 6.25796 28.0589 13.9495 28.0589C17.4777 28.0589 20.7061 26.7292 23.1685 24.547L29.6924 31L31 29.6647L24.4818 23.2169C26.6097 20.7531 27.9046 17.5412 27.9046 14.0293C27.8991 6.29378 21.641 0.00028044 13.9495 0.00028044ZM13.9495 26.1859C7.28737 26.1859 1.86235 20.7317 1.86235 14.0296C1.86235 7.32937 7.28551 1.87329 13.9495 1.87329C20.6115 1.87329 26.0366 7.3275 26.0366 14.0296C26.0366 20.7298 20.6134 26.1859 13.9495 26.1859Z"
+                            fill="white" />
+                        </svg>
+                    </div>
+                    <div class="close z-0 absolute opacity-0 duration-500">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M28 1.79414L26.2059 0L14 12.2059L1.79375 0L0 1.79414L12.2063 14L0 26.2059L1.79375 28L14 15.7941L26.2059 28L28 26.2059L15.7944 14L28 1.79414Z" fill="#003B8E"/>
+                            </svg>                            
+                    </div>
+                    </div>
+                <div class="menuBar cursor-pointer text-center">
+                    <svg width="37" height="35" viewBox="0 0 37 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="21.6191" y="0.904762" width="14.4762" height="14.4762" rx="2.71429" stroke="#F9FAFB"
+                            stroke-width="1.80952" />
+                        <rect x="1.71433" y="19" width="14.4762" height="14.4762" rx="2.71429" stroke="#F9FAFB"
+                            stroke-width="1.80952" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.4762 1.80952H4.42862C3.42925 1.80952 2.61909 2.61968 2.61909 3.61905V5.42857H0.80957V3.61905C0.80957 1.6203 2.42987 0 4.42862 0H13.4762C15.475 0 17.0953 1.6203 17.0953 3.61905V12.6667C17.0953 14.6654 15.475 16.2857 13.4762 16.2857H4.42862C2.42988 16.2857 0.80957 14.6654 0.80957 12.6667V10.8571H2.61909V12.6667C2.61909 13.666 3.42925 14.4762 4.42862 14.4762H13.4762C14.4756 14.4762 15.2858 13.666 15.2858 12.6667V3.61905C15.2858 2.61968 14.4756 1.80952 13.4762 1.80952ZM2.61909 9.04762V7.2381H0.80957V9.04762H2.61909Z"
+                            fill="#F9FAFB" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M31.6664 31.9162C32.6759 31.4158 33.5329 30.6542 34.149 29.7198L35.4493 31.02C34.7952 31.9201 33.9613 32.681 33.0002 33.25L31.6664 31.9162ZM29.7063 32.5151C29.4287 32.5523 29.1455 32.5715 28.8577 32.5715C25.3599 32.5715 22.5244 29.7359 22.5244 26.2381C22.5244 22.7403 25.3599 19.9048 28.8577 19.9048C32.3555 19.9048 35.191 22.7403 35.191 26.2381C35.191 26.8366 35.108 27.4157 34.9529 27.9645L36.3711 29.3828C36.7766 28.4153 37.0006 27.3529 37.0006 26.2381C37.0006 21.741 33.3549 18.0953 28.8577 18.0953C24.3605 18.0953 20.7148 21.741 20.7148 26.2381C20.7148 30.7353 24.3605 34.381 28.8577 34.381C29.6804 34.381 30.4746 34.259 31.2233 34.0321L29.7063 32.5151Z"
+                            fill="#F9FAFB" />
+                    </svg>
+                    <span class="font-IRANSansWeb(FaNum)400 text-White text-sm mt-1">
+                        MENU
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menuContainer duration-1000 fixed w-svw h-svh z-[60]" style="
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          270deg,
+          rgba(255, 255, 255, 1) 31%,
+          rgba(188, 230, 246, 1) 100%
+        );
+      ">
+      <div class="closeContainer fixed top-10 right-[5%] cursor-pointer">
+        <svg width="33" height="31" viewBox="0 0 33 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="2.70711" y1="1.29289" x2="31.7071" y2="30.2929" stroke="#003B8E" stroke-width="2"/>
+            <line y1="-1" x2="41.0122" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 31 2)" stroke="#003B8E" stroke-width="2"/>
+            </svg>
+            
+      </div>
+        <div class="innerMenu h-full h-full grid-cols-2 grid items-center" dir="rtl">
+            <div class="list flex justify-end">
+                <ul class="pl-20 w-full" dir="ltr">
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            <span> محصولات </span>
+                        </a>
+                    </li>
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            <span> پروژه ها </span>
+                        </a>
+                    </li>
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            <span> خدمات </span>
+                        </a>
+                    </li>
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            مقالات
+                        </a>
+                    </li>
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li
+                        class="my-5 group relative after:w-full after:h-[2px] after:bg-blue-3/[0.17] after:block flex items-center after:duration-700 after:scale-x-0 after:origin-left hover:after:scale-x-100">
+                        <a class="w-[150px] text-center block font-IRANSansWeb(FaNum)700 text-2xl text-blue-3 group-hover:opacity-100 duration-700 opacity-[0.63]"
+                            href="" title="محصولات">
+                            تماس با ما
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="innerLogo h-[85%]">
+                <img class="h-full" src="images/Untitled-1_03 3.png" alt="ایران" />
+            </div>
+        </div>
+    </div>
+
+    <div class="searchContainer bg-White w-svw h-svh flex items-center justify-center duration-1000" style="transform: scale(0);">
+        <div class="flex justify-center items-center innerSearch w-4/5 mx-auto" dir="rtl">
+            <form class="max-w-[1050px] border border-blue-4/[0.5] h-[54px] px-3 w-full flex items-center font-IRANYekan500 text-base " action="">
+                <input class="w-full focus-visible:outline-none " type="search" placeholder="جستجو کنید..." name="" id="">
+                <button class="cursor-pointer" type="submit">
+                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.9495 0.00028044C6.25796 0.00028044 0 6.29406 0 14.0296C0 21.7651 6.25796 28.0589 13.9495 28.0589C17.4777 28.0589 20.7061 26.7292 23.1685 24.547L29.6924 31L31 29.6647L24.4818 23.2169C26.6097 20.7531 27.9046 17.5412 27.9046 14.0293C27.8991 6.29378 21.641 0.00028044 13.9495 0.00028044ZM13.9495 26.1859C7.28737 26.1859 1.86235 20.7317 1.86235 14.0296C1.86235 7.32937 7.28551 1.87329 13.9495 1.87329C20.6115 1.87329 26.0366 7.3275 26.0366 14.0296C26.0366 20.7298 20.6134 26.1859 13.9495 26.1859Z" fill="#003B8E"/>
+                        </svg>
+                        
+                </button>
+            </form>
+        </div>
+
+    
+    </div>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

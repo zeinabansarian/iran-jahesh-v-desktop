@@ -1,0 +1,172 @@
+<basis core="dbsource" name="db" source="basiscore" lid="1" mid="20" catid="28655">
+  <member name="allProducts" type="list" />
+</basis>
+
+
+<footer>
+  <div class="topContainer">
+    <ul>
+      <li><a href="javascript:void(0);" class="estelam" title="فرم استعلام">فرم استعلام</a></li>
+      <li><a href="/درباره-ما" title="درباره ما">درباره ما</a></li>
+      <li><a href="/تماس-با-ما-" title="تماس با ما">تماس با ما</a></li>
+      <li><a href="/لیست-مقالات-سیحان-سیال" title="بلاگ">بلاگ</a></li>
+      <li><a href="/" title="سیحان سیال">سیحان سیال</a></li>
+    </ul>
+  </div>
+  <div class="buttomSection">
+    <a href="https://namasite.it" title="namaSite">
+      <img src="[##cms.cms.cdn##]/images/copyright.png" alt="" />
+    </a>
+    <p>طراحی سایت و بهینه سازی سایت</p>
+  </div>
+</footer>
+<div class="footerSelectBoxes">
+  <select onchange="getComboA(this)">
+    <basis core="print" datamembername="db.allProducts">
+      <face>
+        <option value="@title">@title</option>
+
+      </face>
+    </basis>
+  </select>
+</div>
+<script src="[##cms.cms.cdn##]/_js/imageLoaded.js" defer></script>
+
+<script defer>
+  var host = {
+debug: false,
+settings: {
+  "connection.web.trust_login": "https://basispanel.ir/apicms",
+  "connection.web.basiscore": "https://basispanel.ir/apicms",
+  "connection.web.media": "https://basispanel.ir/apicms",
+  "default.dbsource.verb": "post",
+  "default.call.verb": "get",
+  "default.viewCommand.groupColumn": "prpid",
+  "default.dmnid": "4313",
+  "default.binding.regex": "\\{##([^#]*)##\\}",
+                    'connection.web.userbehavior': 'https://basispanel.ir/apicms', 
+
+},
+};
+
+let selectValue;  
+function getComboA(selectObject) {
+   selectValue = selectObject.value;  
+
+
+  let footerSelectBoxes = document.querySelector(".footerSelectBoxes")
+  footerSelectBoxes.nextElementSibling.value=selectValue;
+  console.log("footerSelectBoxes.nextElementSibling" , footerSelectBoxes.nextElementSibling);
+  console.log("selectValue" ,selectValue);
+
+  
+}
+function onSource1(args) {
+const captcha = document.querySelector(
+  "#requestBox1 input[name='captcha']"
+).value;
+const captchaid = document.querySelector(
+  "#requestBox1 input[name='captchaid']"
+).value;
+const stringJson = JSON.stringify(args.source?.rows[0]);
+console.log("stringJson", stringJson);
+$bc.setSource("edit.object1", {
+  value: stringJson,
+  captcha: captcha,
+  captchaid: captchaid,
+});
+}
+
+let responsMsg1;
+let responsMsg1In;
+function renderFn(args) {
+   responsMsg1 = document.querySelector(".homeForm1 .responsMsg1");
+ responsMsg1In = document.querySelector(".homeForm1 .responsMsg1 span");
+console.log("renderArgs", args);
+let footerSelectBoxes = document.querySelector(".footerSelectBoxes")
+let cells = document.querySelectorAll(".homeForm1 [data-bc-part-related-cell]")
+
+  cells[4].querySelector("input").style.display = "none";
+  cells[4].insertAdjacentElement("afterbegin", footerSelectBoxes);
+  cells[5].querySelector("input").setAttribute("type", "number");
+  cells[5].querySelector("input").setAttribute("placeholder", "تعداد");
+  // footerSelectBoxes.addEventListener("change" , function (selectObject) {
+  //   var value = selectObject.value;  
+  // console.log(value);
+  // })
+
+let questions = document.querySelectorAll(".homeForm1 [data-bc-question]");
+console.log("questions", questions);
+
+questions.forEach((element) => {
+  if (element.querySelector(".homeForm1 [data-bc-question-title]")) {
+
+    let title = element.querySelector(
+      ".homeForm1 [data-bc-question-title]"
+    ).innerHTML;
+    let qInput = element.querySelector("input");
+    let qTxtArea = element.querySelector("_textarea");
+    if (qInput) {
+      qInput.setAttribute("placeholder", title);
+    } else if (qTxtArea) {
+      qTxtArea.setAttribute("placeholder", title);
+    }
+  }
+});
+
+
+}
+
+
+
+async function OnProcessedEditObject11(args) {
+const response = args.response;
+const json = await response.json();
+if (selectValue) {
+  console.log("is");
+  
+}else{
+  let options = document.querySelectorAll(".footerSelectBoxes option")
+  selectValue = options[0].value;
+  let footerSelectBoxes = document.querySelector(".footerSelectBoxes")
+  footerSelectBoxes.nextElementSibling.value=selectValue;
+}
+
+if (json.errorid == 6) {
+  console.log(json);
+  responsMsg1In.innerHTML = "فرم با موفقیت ثبت شد.";
+  responsMsg1.style.display = "block";
+  setTimeout(() => {
+    let homeFormInputs = document.querySelector(".homeForm1");
+    homeFormInputs.reset();
+  }, 200);
+  setTimeout(() => {
+    responsMsg1.style.display = "none";
+  }, 2000);
+}
+if (json.errorid == 4) {
+  console.log(json);
+  responsMsg1In.innerHTML = "لطفا کپچا را به درستی وارد کنید.";
+
+  responsMsg1.style.display = "block";
+
+  setTimeout(() => {
+    responsMsg1.style.display = "none";
+  }, 2000);
+}
+}
+
+async function renderingFn(args) {
+console.log("args", args);
+const response = args.response;
+const json = await response.json();
+console.log("rendering res", response);
+console.log("rendering json", json);
+}
+$("body").on("click", ".refressh11", function (e) {
+$(".captcha-sefaresh1").load("/captcha.bc?refresh=true");
+});
+
+
+
+</script>
