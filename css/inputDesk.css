@@ -3,6 +3,88 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "IranYekan500";
+  src: url("../_fonts/iranyekanwebmedium.eot");
+  src: url("../_fonts/iranyekanwebmedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/iranyekanwebmedium.woff") format("woff"),
+    url("../_fonts/iranyekanwebmedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranYekan400";
+  src: url("../_fonts/iranyekanwebregular.eot");
+  src: url("../_fonts/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/iranyekanwebregular.woff") format("woff"),
+    url("../_fonts/iranyekanwebregular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranYekan300";
+  src: url("../_fonts/IRANYekanLight.eot");
+  src: url("../_fonts/IRANYekanLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANYekanLight.woff") format("woff"),
+    url("../_fonts/IRANYekanLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranYekan700";
+  src: url("../_fonts/iranyekanwebbold.eot");
+  src: url("../_fonts/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/iranyekanwebbold.woff") format("woff"),
+    url("../_fonts/iranyekanwebbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSansWeb300";
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANSansWeb400";
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANSansWeb500";
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: "IRANSansWeb700";
   font-family: "IRANSansWeb(FaNum)700";
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
@@ -15,7 +97,67 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "IRANSansWeb(FaNum)400";
+    font-family: "IRANSansWeb(FaNum)700";
+    src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+    src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Biotif300";
+    src:
+      url("../fonts/Biotif-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Biotif400";
+    src:
+      url("../fonts/Biotif-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Biotif500";
+    src:
+      url("../fonts/Biotif-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Biotif700";
+    src:
+      url("../fonts/Biotif-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Biotif800";
+    src:
+      url("../fonts/Biotif-Black.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Biotif900";
+    src:
+      url("../fonts/Biotif-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* font-family: "IRANSansWeb(FaNum)400";
   src: url("../_fonts/IRANSansWebRegular.eot");
   src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
       format("embedded-opentype"),
@@ -24,8 +166,8 @@
     url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
+  font-display: swap; */
+/* } */
 @font-face {
   font-family: "IRANYekan300";
   src: url("../_fonts/IRANYekanLight.eot");
@@ -373,4 +515,56 @@ z-index: 1!important;
 
 .certiPagination .swiper-pagination-bullet-active{
 background-color: #00A0DD80!important;
+}
+
+
+.wavess {
+  position: absolute;
+bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wavess svg path {
+  fill: linear-gradient(180deg, rgba(0, 160, 221, 0) 15.96%, rgba(0, 160, 221, 0.5) 99.29%);
+  ;
+}
+
+/* Animation */
+.wave-paths {
+  use {
+    animation: move-waves 10s ease-in-out infinite;
+    fill: url(#wave-gradient);
+  }
+  use:nth-child(odd) {
+    animation-direction: reverse;
+    animation-duration: 13s;
+  }
+  use:nth-child(1) {
+    animation-delay: -2s;
+    opacity: .7;
+  }
+  use:nth-child(2) {
+    animation-delay: -3s;
+    opacity: .5;
+  }
+  use:nth-child(3) {
+    animation-delay: -4s;
+    opacity: .3;
+  }
+  use:nth-child(4) {
+    animation-delay: -5s;
+  }
+}
+
+@keyframes move-waves {
+  0% {
+    transform: translate3d(-30px, 0, 0);
+  }
+  50% {
+    transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    transform: translate3d(-30px, 0, 0);
+  }
 }
