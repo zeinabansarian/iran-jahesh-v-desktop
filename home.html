@@ -4,20 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/outputDesk.css">
 </head>
 <body>
-    <main class="Home-C">
-        <section class="Section-1">
-            <div class="main-bg " style="background-color: aquamarine;">
-                <div class="main-logo">
-                    <!-- <svg width="1280" height="808" viewBox="0 0 1280 808" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M200.714 -79H-0.130402V380.192C-56.367 427.849 -83.8157 503.471 -88 534.083C-55.9902 493.275 -22.5958 469.438 0 456.55V491.573C-0.0441437 491.679 -0.087616 491.783 -0.130402 491.887V685.493L0 685.355V808H1280V0H632.905L705.337 -79H436.707L361.596 0H200.714V-79ZM200.714 0H0V456.55C16.688 447.032 27.486 443.486 27.486 443.486C27.486 443.486 6.47772 476.102 0 491.573V685.355L223.309 449.691L321.221 562.628C383.483 640.07 480.642 710.314 529.598 731.412C706.341 781.054 819.567 668.531 849.694 609.788C663.912 622.199 596.083 556.112 568.511 527.878C563.825 523.079 558.045 517.023 551.32 509.977C507.611 464.176 423.987 376.551 341.306 320.621C264.985 268.993 162.219 282.562 120.376 295.8C232.849 244.172 346.327 254.431 389.006 266.015L632.905 0H361.596L200.714 169.212V0ZM879.82 473.271C753.288 577.52 636.296 552.284 594.872 525.395C718.391 620.708 840.488 575.037 886.097 540.288C942.33 483.695 907.436 450.519 879.82 473.271ZM560.948 750.554C633.297 774.42 831.624 769.015 958.9 548.976C991.54 520.432 1065.6 547.735 991.54 649.502C944.24 724.372 784.289 845.503 560.948 750.554Z" fill="white"/>
-                        </svg> -->
-                        
-                        
+    <main class="Home-C" dir="rtl">
+        <section class="Section-1 w-full flex h-screen relative">
+            <div class="main-bg w-full flex justify-start items-start absolute left-0 top-0 h-full z-1">
+                <div class="main-logo w-[90%] mr-auto flex justify-start items-start h-full">
+                 <img src="images/baner.png" alt="" class="w-full h-full object-cover">    
                 </div>
             </div>
+            <div class="column w-[10%] h-full absolute right-0 top-0 bg-White z-1"></div>
+            <div class="Mian-Img absolute top-0 left-0 w-full h-screen z-0">
+                <video src="images/10452098-hd_3840_2160_30fps.mp4" autoplay muted loop playsinline
+                class="w-full h-full object-cover"></video>
+            </div>
+            <div class="Content w-full flex relative flex-col  h-full justify-center items-center z-30">
+               
+                <div class="logo w-full flex flex-col justify-center items-center">
+                    <div class="title w-auto flex overflow-hidden">
+                        <p class="font-Biotif400 font-normal text-3xl duration-[.8s]
+                        leading-38.79 text-blue-5 tracking-[8%] uppercase"> 
+                            Conserve Water
+                        </p>
+                    </div>
+                    <div class="title w-auto flex overflow-hidden">
+                        <h1 class="font-Biotif700 font-bold text-[64px] duration-[.8s]
+                         leading-87.49 text-blue-5 tracking-[3%] uppercase">
+                            For Life!
+                        </h1>
+                    </div>
+                   
+                </div>
+                <div class="lines w-auto h-[200px] grid grid-cols-[1fr,1fr,1fr] gap-[3.8em] overflow-hidden">
+                    <div class="col w-full  h-[200px] flex flex-col gap-4 duration-100">
+                        <span class="line-1 w-[5px] h-[15%] rounded-[4px] bg-blue-5"></span>
+                        <span class="line-2  w-[5px] h-[60%] rounded-[4px] bg-blue-5"></span>
+                    </div>
+                    <div class="col w-full  h-[200px] flex flex-col gap-4 duration-100">
+                        <span class="line-1 w-[5px] h-[60%] rounded-[4px] bg-blue-5"></span>
+                        <span class="line-2 w-[5px] h-[15%] rounded-[4px] bg-blue-5"></span>
+                    </div>
+                    <div class="col w-full  h-[200px] flex flex-col gap-4 duration-100">
+                        <span class="line-1 w-[5px] h-[38%] rounded-[4px] bg-blue-5"></span>
+                        <span class="line-2  w-[5px] h-[38%] rounded-[4px] bg-blue-5"></span>
+                    </div>
+                </div>
+                <div class="Text w-full flex justify-start items-center absolute z-3 right-0 bottom-0 overflow-hidden ">
+                    <p class="IranYekan400 font-normal text-sm leading-24.18 text-blue-5 mr-[3%] mb-[1em] duration-100"> 
+                        نخستین سازنده پمپ طبقاتی در ایران
+                    </p>
+                </div>
+            </div>
+            <div class="main__lines z-20 w-full absolute h-screen left-0 top-0 grid grid-cols-[repeat(12,1fr)] grid-rows-1">
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+                <span class="line w-0 bg-White duration-[.4s] h-full mr-auto"></span>
+            </div>
         </section>
+     <div class="Ocean-sec w-full h-[8em] relative">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+          </div>
+     </div>
+    
     </main>
+    <script src="js/gsap.js"></script>
+    <script src="js/scrollTrigger.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/lenisScroll.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
