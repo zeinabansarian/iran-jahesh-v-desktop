@@ -1096,6 +1096,10 @@ video {
   height: 0.5rem;
 }
 
+.h-\[10em\] {
+  height: 10em;
+}
+
 .h-\[12px\] {
   height: 12px;
 }
@@ -1130,10 +1134,6 @@ video {
 
 .h-\[85\%\] {
   height: 85%;
-}
-
-.h-\[8em\] {
-  height: 8em;
 }
 
 .h-full {
@@ -1341,6 +1341,11 @@ video {
 
 .-rotate-6 {
   --tw-rotate: -6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-0 {
+  --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -4103,6 +4108,60 @@ header rect , header path , .menuBar span{
 
 .certiPagination .swiper-pagination-bullet-active{
   background-color: #00A0DD80!important;
+}
+
+.wavess {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wavess svg path {
+  fill: linear-gradient(180deg, rgba(0, 160, 221, 0) 15.96%, rgba(0, 160, 221, 0.5) 99.29%);
+}
+
+/* Animation */
+
+.wave-paths {
+  use {
+    animation: move-waves 10s ease-in-out infinite;
+    fill: url(#wave-gradient);
+  }
+  use:nth-child(odd) {
+    animation-direction: reverse;
+    animation-duration: 13s;
+  }
+  use:nth-child(1) {
+    animation-delay: -2s;
+    opacity: .7;
+  }
+  use:nth-child(2) {
+    animation-delay: -3s;
+    opacity: .5;
+  }
+  use:nth-child(3) {
+    animation-delay: -4s;
+    opacity: .3;
+  }
+  use:nth-child(4) {
+    animation-delay: -5s;
+  }
+}
+
+@keyframes move-waves {
+  0% {
+    transform: translate3d(-30px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(30px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-30px, 0, 0);
+  }
 }
 
 @media (min-width: 480px) {
