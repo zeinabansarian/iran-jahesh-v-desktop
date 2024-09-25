@@ -653,8 +653,6 @@ video {
   inset: -0.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .\!bottom-0 {
   bottom: 0px !important;
 }
@@ -663,18 +661,14 @@ video {
   top: 0px !important;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .bottom-0 {
   bottom: 0px;
 }
 
-<<<<<<< HEAD
-=======
 .bottom-6 {
   bottom: 1.5rem;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -683,8 +677,6 @@ video {
   left: 0px;
 }
 
-<<<<<<< HEAD
-=======
 .left-4 {
   left: 1rem;
 }
@@ -697,7 +689,6 @@ video {
   left: 35%;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .left-\[5\%\] {
   left: 5%;
 }
@@ -706,19 +697,14 @@ video {
   right: 0px;
 }
 
-<<<<<<< HEAD
-=======
 .right-10 {
   right: 2.5rem;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .right-36 {
   right: 9rem;
 }
 
-<<<<<<< HEAD
-=======
 .right-\[36px\] {
   right: 36px;
 }
@@ -727,13 +713,10 @@ video {
   right: 5%;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .top-0 {
   top: 0px;
 }
 
-<<<<<<< HEAD
-=======
 .top-10 {
   top: 2.5rem;
 }
@@ -742,7 +725,6 @@ video {
   top: 45%;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .isolate {
   isolation: isolate;
 }
@@ -763,7 +745,10 @@ video {
   z-index: 10;
 }
 
-<<<<<<< HEAD
+.z-2 {
+  z-index: 2;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -774,9 +759,6 @@ video {
 
 .z-30 {
   z-index: 30;
-=======
-.z-2 {
-  z-index: 2;
 }
 
 .z-50 {
@@ -793,7 +775,6 @@ video {
 
 .z-\[60\] {
   z-index: 60;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .float-start {
@@ -892,18 +873,6 @@ video {
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
-.mb-\[1em\] {
-  margin-bottom: 1em;
-}
-
-.mr-\[3\%\] {
-  margin-right: 3%;
-}
-
-.mr-auto {
-  margin-right: auto;
-=======
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -918,6 +887,10 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-\[1em\] {
+  margin-bottom: 1em;
 }
 
 .ml-4 {
@@ -936,8 +909,16 @@ video {
   margin-right: 0.25rem;
 }
 
+.mr-\[3\%\] {
+  margin-right: 3%;
+}
+
 .mr-\[5\%\] {
   margin-right: 5%;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mt-0 {
@@ -946,7 +927,6 @@ video {
 
 .mt-1 {
   margin-top: 0.25rem;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .mt-10 {
@@ -1112,26 +1092,6 @@ video {
   height: 0.25rem;
 }
 
-<<<<<<< HEAD
-.h-\[15\%\] {
-  height: 15%;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[38\%\] {
-  height: 38%;
-}
-
-.h-\[4em\] {
-  height: 4em;
-}
-
-.h-\[60\%\] {
-  height: 60%;
-=======
 .h-2 {
   height: 0.5rem;
 }
@@ -1140,12 +1100,28 @@ video {
   height: 12px;
 }
 
+.h-\[15\%\] {
+  height: 15%;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[31px\] {
   height: 31px;
 }
 
+.h-\[38\%\] {
+  height: 38%;
+}
+
 .h-\[54px\] {
   height: 54px;
+}
+
+.h-\[60\%\] {
+  height: 60%;
 }
 
 .h-\[716px\] {
@@ -1154,39 +1130,20 @@ video {
 
 .h-\[85\%\] {
   height: 85%;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
-}
-
-.h-full {
-  height: 100%;
-}
-
-<<<<<<< HEAD
-.h-screen {
-  height: 100vh;
 }
 
 .h-\[8em\] {
   height: 8em;
 }
 
-.w-0 {
-  width: 0px;
+.h-full {
+  height: 100%;
 }
 
-.w-\[10\%\] {
-  width: 10%;
+.h-screen {
+  height: 100vh;
 }
 
-.w-\[5px\] {
-  width: 5px;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-=======
 .h-svh {
   height: 100svh;
 }
@@ -1215,6 +1172,10 @@ video {
   width: 634px !important;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -1225,6 +1186,10 @@ video {
 
 .w-90p {
   width: 90%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
 }
 
 .w-\[12px\] {
@@ -1259,11 +1224,18 @@ video {
   width: 56%;
 }
 
+.w-\[5px\] {
+  width: 5px;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .w-\[96px\] {
   width: 96px;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -1280,14 +1252,11 @@ video {
   width: auto;
 }
 
-<<<<<<< HEAD
-=======
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .w-full {
   width: 100%;
 }
@@ -1297,8 +1266,6 @@ video {
   width: max-content;
 }
 
-<<<<<<< HEAD
-=======
 .w-svw {
   width: 100svw;
 }
@@ -1319,7 +1286,6 @@ video {
   max-width: 618px;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1708,7 +1674,10 @@ video {
   grid-auto-flow: column dense;
 }
 
-<<<<<<< HEAD
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-\[1fr\2c 1fr\2c 1fr\] {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -1719,10 +1688,6 @@ video {
 
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
-=======
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .flex-row {
@@ -1909,7 +1874,6 @@ video {
   justify-items: stretch;
 }
 
-<<<<<<< HEAD
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1920,7 +1884,8 @@ video {
 
 .gap-\[3\.8em\] {
   gap: 3.8em;
-=======
+}
+
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -1963,7 +1928,6 @@ video {
 
 .gap-y-5 {
   row-gap: 1.25rem;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2282,12 +2246,12 @@ video {
   border-radius: 0.25rem;
 }
 
-<<<<<<< HEAD
-.rounded-\[4px\] {
-  border-radius: 4px;
-=======
 .rounded-\[11px\] {
   border-radius: 11px;
+}
+
+.rounded-\[4px\] {
+  border-radius: 4px;
 }
 
 .rounded-\[50px\] {
@@ -2300,7 +2264,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .rounded-b {
@@ -2443,8 +2406,6 @@ video {
   border-style: none;
 }
 
-<<<<<<< HEAD
-=======
 .border-White {
   border-color: #ffff;
 }
@@ -2472,7 +2433,6 @@ video {
   border-color: rgb(255 92 0 / var(--tw-border-opacity));
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .bg-White {
   background-color: #ffff;
 }
@@ -2482,11 +2442,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
-.bg-blue-5 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 77 162 / var(--tw-bg-opacity));
-=======
 .bg-before-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(0 189 242 / var(--tw-bg-opacity));
@@ -2524,9 +2479,13 @@ video {
   background-color: rgb(0 59 142 / var(--tw-bg-opacity));
 }
 
+.bg-blue-5 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 77 162 / var(--tw-bg-opacity));
+}
+
 .bg-ligh-blue {
   background-color: #00A0DD33;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .decoration-slice {
@@ -2905,39 +2864,6 @@ video {
   vertical-align: super;
 }
 
-<<<<<<< HEAD
-.font-Biotif400 {
-  font-family: Biotif400, Biotif400;
-}
-
-.font-Biotif700 {
-  font-family: Biotif700, Biotif700;
-=======
-.font-Biotif700 {
-  font-family: "Biotif700";
-}
-
-.font-IRANSansWeb\(FaNum\)400 {
-  font-family: "IRANSansWeb(FaNum)400";
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
-}
-
-.font-IRANSansWeb\(FaNum\)700 {
-  font-family: "IRANSansWeb(FaNum)700";
-}
-
-.font-IRANYekan300 {
-  font-family: "IRANYekan300";
-}
-
-.font-IRANYekan400 {
-  font-family: "IRANYekan400";
-}
-
-.font-IRANYekan500 {
-  font-family: "IRANYekan500";
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2965,10 +2891,10 @@ video {
   font-size: 40px;
 }
 
-<<<<<<< HEAD
 .text-\[64px\] {
   font-size: 64px;
-=======
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2977,7 +2903,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 }
 
 .text-sm {
@@ -2985,8 +2910,6 @@ video {
   line-height: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -2997,7 +2920,6 @@ video {
   line-height: 1rem;
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .font-bold {
   font-weight: 700;
 }
@@ -3074,7 +2996,6 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-<<<<<<< HEAD
 .leading-24 {
   line-height: 24px;
 }
@@ -3091,20 +3012,20 @@ video {
   line-height: 87.49px;
 }
 
-.tracking-\[3\%\] {
-  letter-spacing: 3%;
-}
-
-.tracking-\[8\%\] {
-  letter-spacing: 8%;
-=======
 .leading-\[194\.52px\] {
   line-height: 194.52px;
 }
 
+.tracking-\[3\%\] {
+  letter-spacing: 3%;
+}
+
 .tracking-\[30px\] {
   letter-spacing: 30px;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
+}
+
+.tracking-\[8\%\] {
+  letter-spacing: 8%;
 }
 
 .text-White {
@@ -3115,9 +3036,6 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
-<<<<<<< HEAD
-.text-blue-5 {
-=======
 .text-blue-1 {
   --tw-text-opacity: 1;
   color: rgb(0 160 221 / var(--tw-text-opacity));
@@ -3138,14 +3056,16 @@ video {
   color: rgb(43 192 221 / var(--tw-text-opacity));
 }
 
-.text-blue-text {
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
+.text-blue-5 {
   --tw-text-opacity: 1;
   color: rgb(12 77 162 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
-=======
+.text-blue-text {
+  --tw-text-opacity: 1;
+  color: rgb(12 77 162 / var(--tw-text-opacity));
+}
+
 .text-ligh-blue {
   color: #00A0DD33;
 }
@@ -3163,7 +3083,6 @@ video {
   color: rgb(229 229 229 / 0.3);
 }
 
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
 .underline {
   text-decoration-line: underline;
 }
@@ -3486,18 +3405,10 @@ video {
   transition-duration: 150ms;
 }
 
-<<<<<<< HEAD
 .duration-100 {
   transition-duration: 100ms;
 }
 
-.duration-\[\.4s\] {
-  transition-duration: .4s;
-}
-
-.duration-\[\.8s\] {
-  transition-duration: .8s;
-=======
 .duration-1000 {
   transition-duration: 1000ms;
 }
@@ -3508,7 +3419,14 @@ video {
 
 .duration-700 {
   transition-duration: 700ms;
->>>>>>> 59f8da61a7e8f94abe8dbd7601fa8267c6f29d42
+}
+
+.duration-\[\.4s\] {
+  transition-duration: .4s;
+}
+
+.duration-\[\.8s\] {
+  transition-duration: .8s;
 }
 
 .ease-in {
@@ -3698,6 +3616,8 @@ video {
 @font-face{
   font-family: "IRANSansWeb700";
 
+  font-family: "IRANSansWeb(FaNum)700";
+
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
@@ -3719,113 +3639,10 @@ video {
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
   src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
-
-  font-weight: 700;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANSansWeb(FaNum)400";
-
-  src: url("../_fonts/IRANSansWebRegular.eot");
-
-  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
-    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
-    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANYekan300";
-
-  src: url("../_fonts/IRANYekanLight.eot");
-
-  src: url("../_fonts/IRANYekanLight.eot?#iefix") format("embedded-opentype"),
-    url("../_fonts/IRANYekanLight.woff") format("woff"),
-    url("../_fonts/IRANYekanLight.woff2") format("woff2"),
-    url("../_fonts/IRANYekanLight.ttf") format("truetype");
-
-  font-weight: 300;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANYekan400";
-
-  src: url("../_fonts/IRANYekanX-Regular.eot");
-
-  src: url("../_fonts/IRANYekanX-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../_fonts/IRANYekanX-Regular.woff") format("woff"),
-    url("../_fonts/IRANYekanX-Regular.woff2") format("woff2"),
-    url("../_fonts/IRANYekanX-Regular.ttf") format("truetype");
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANYekan500";
-
-  src: url("../_fonts/IRANYekanX-Medium.eot");
-
-  src: url("../_fonts/IRANYekanX-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../_fonts/IRANYekanX-Medium.woff") format("woff"),
-    url("../_fonts/IRANYekanX-Medium.woff2") format("woff2"),
-    url("../_fonts/IRANYekanX-Medium.ttf") format("truetype");
-
-  font-weight: 500;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Sahitya400";
-
-  src: url("../_fonts/Biotif-Bold.eot");
-
-  src: url("../_fonts/Biotif-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../_fonts/Biotif-Bold.woff") format("woff"),
-    url("../_fonts/Biotif-Bold.woff2") format("woff2"),
-    url("../_fonts/Biotif-Bold.ttf") format("truetype");
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Biotif700";
-
-  src: url("../_fonts/Sahitya-Regular.eot");
-
-  src: url("../_fonts/Sahitya-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../_fonts/Sahitya-Regular.woff") format("woff"),
-    url("../_fonts/Sahitya-Regular.woff2") format("woff2"),
-    url("../_fonts/Sahitya-Regular.ttf") format("truetype");
+        format("embedded-opentype"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+      url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3906,6 +3723,104 @@ video {
       url("../fonts/Biotif-ExtraBold.ttf") format("truetype");
 
   font-weight: 900;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+/* font-family: "IRANSansWeb(FaNum)400";
+  src: url("../_fonts/IRANSansWebRegular.eot");
+  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
+    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
+    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; */
+
+/* } */
+
+@font-face {
+  font-family: "IRANYekan300";
+
+  src: url("../_fonts/IRANYekanLight.eot");
+
+  src: url("../_fonts/IRANYekanLight.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanLight.woff") format("woff"),
+    url("../_fonts/IRANYekanLight.woff2") format("woff2"),
+    url("../_fonts/IRANYekanLight.ttf") format("truetype");
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan400";
+
+  src: url("../_fonts/IRANYekanX-Regular.eot");
+
+  src: url("../_fonts/IRANYekanX-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Regular.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Regular.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Regular.ttf") format("truetype");
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan500";
+
+  src: url("../_fonts/IRANYekanX-Medium.eot");
+
+  src: url("../_fonts/IRANYekanX-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Medium.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Medium.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Medium.ttf") format("truetype");
+
+  font-weight: 500;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sahitya400";
+
+  src: url("../_fonts/Biotif-Bold.eot");
+
+  src: url("../_fonts/Biotif-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/Biotif-Bold.woff") format("woff"),
+    url("../_fonts/Biotif-Bold.woff2") format("woff2"),
+    url("../_fonts/Biotif-Bold.ttf") format("truetype");
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Biotif700";
+
+  src: url("../_fonts/Sahitya-Regular.eot");
+
+  src: url("../_fonts/Sahitya-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/Sahitya-Regular.woff") format("woff"),
+    url("../_fonts/Sahitya-Regular.woff2") format("woff2"),
+    url("../_fonts/Sahitya-Regular.ttf") format("truetype");
+
+  font-weight: 700;
 
   font-style: normal;
 
