@@ -32,6 +32,8 @@ module.exports = {
       'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
       'before-blue':'#00BDF2',
+      'input':'#A1A1AA',
+      'orange':'#FF5C00',
       'White':'#ffff',
       'black':'#000000',
     },
@@ -39,6 +41,8 @@ module.exports = {
       'IRANSansWeb(FaNum)700': ['"IRANSansWeb(FaNum)700"'],
       'IRANSansWeb(FaNum)400': ['"IRANSansWeb(FaNum)400"'],
       'IRANYekan300': ['"IRANYekan300"'],
+      'IRANYekan400': ['"IRANYekan400"'],
+      'IRANYekan500': ['"IRANYekan500"'],
       'Biotif700': ['"Biotif700"'],
      
     

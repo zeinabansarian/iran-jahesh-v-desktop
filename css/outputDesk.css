@@ -817,8 +817,16 @@ video {
   margin-bottom: 2.75rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-2 {
@@ -849,6 +857,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mr-\[5\%\] {
+  margin-right: 5%;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -861,8 +873,16 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-2 {
@@ -883,6 +903,10 @@ video {
 
 .mt-40 {
   margin-top: 10rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
 }
 
 .mt-6 {
@@ -1008,6 +1032,10 @@ video {
   height: 0.5rem;
 }
 
+.h-\[31px\] {
+  height: 31px;
+}
+
 .h-\[54px\] {
   height: 54px;
 }
@@ -1074,6 +1102,10 @@ video {
 
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-\[96px\] {
+  width: 96px;
 }
 
 .w-\[this-is\\\\\] {
@@ -2047,6 +2079,14 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-\[11px\] {
+  border-radius: 11px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -2198,6 +2238,15 @@ video {
 .border-blue-4 {
   --tw-border-opacity: 1;
   border-color: rgb(43 192 221 / var(--tw-border-opacity));
+}
+
+.border-blue-4\/\[0\.5\] {
+  border-color: rgb(43 192 221 / 0.5);
+}
+
+.border-orange {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 92 0 / var(--tw-border-opacity));
 }
 
 .bg-White {
@@ -2428,6 +2477,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -2456,6 +2510,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-11 {
@@ -2596,6 +2655,14 @@ video {
 
 .font-IRANYekan300 {
   font-family: "IRANYekan300";
+}
+
+.font-IRANYekan400 {
+  font-family: "IRANYekan400";
+}
+
+.font-IRANYekan500 {
+  font-family: "IRANYekan500";
 }
 
 .text-2xl {
@@ -3204,6 +3271,40 @@ video {
 }
 
 @font-face {
+  font-family: "IRANYekan400";
+
+  src: url("../_fonts/IRANYekanX-Regular.eot");
+
+  src: url("../_fonts/IRANYekanX-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Regular.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Regular.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Regular.ttf") format("truetype");
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan500";
+
+  src: url("../_fonts/IRANYekanX-Medium.eot");
+
+  src: url("../_fonts/IRANYekanX-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Medium.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Medium.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Medium.ttf") format("truetype");
+
+  font-weight: 500;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Biotif700";
 
   src: url("../_fonts/Biotif-Bold.eot");
@@ -3428,6 +3529,10 @@ header rect , header path , .menuBar span{
   z-index: 1!important;
 }
 
+.searchPage .resaultProduct .swiper-slide:hover{
+  box-shadow: 1px 1px 9px 0px #00A0DD33;
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;
@@ -3549,8 +3654,17 @@ header rect , header path , .menuBar span{
   display: none;
 }
 
+.hover\:bg-blue-4:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 192 221 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:text-White:hover {
+  color: #ffff;
 }
 
 .before\:hover\:text-center:hover::before {

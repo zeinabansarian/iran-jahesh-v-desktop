@@ -38,6 +38,28 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "IRANYekan400";
+  src: url("../_fonts/IRANYekanX-Regular.eot");
+  src: url("../_fonts/IRANYekanX-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Regular.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Regular.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANYekan500";
+  src: url("../_fonts/IRANYekanX-Medium.eot");
+  src: url("../_fonts/IRANYekanX-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../_fonts/IRANYekanX-Medium.woff") format("woff"),
+    url("../_fonts/IRANYekanX-Medium.woff2") format("woff2"),
+    url("../_fonts/IRANYekanX-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Biotif700";
   src: url("../_fonts/Biotif-Bold.eot");
   src: url("../_fonts/Biotif-Bold.eot?#iefix") format("embedded-opentype"),
@@ -266,4 +288,10 @@ z-index: 0!important;
 .opensearchBtn .close{
 opacity: 1!important;
 z-index: 1!important;
+}
+
+
+.searchPage .resaultProduct .swiper-slide:hover{
+  box-shadow: 1px 1px 9px 0px #00A0DD33;
+
 }
