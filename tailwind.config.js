@@ -29,9 +29,11 @@ module.exports = {
       'blue-4':'#2BC0DD',
       'blue-3':'#003B8E',
       'blue-2':'#01073F',
+      'blue-1':'#00A0DD',
       'blue-text':'#0C4DA2',
       'ligh-blue':'#00A0DD33',
       'before-blue':'#00BDF2',
+      'lightGay':'#E5E5E5',
       'input':'#A1A1AA',
       'orange':'#FF5C00',
       'White':'#ffff',
@@ -43,10 +45,8 @@ module.exports = {
       'IRANYekan300': ['"IRANYekan300"'],
       'IRANYekan400': ['"IRANYekan400"'],
       'IRANYekan500': ['"IRANYekan500"'],
-      'Biotif700': ['"Biotif700"'],
-     
-    
-        
+      'Sahitya400': ['"Sahitya400"'],
+      'Biotif700': ['"Biotif700"'],  
     },
   
     
