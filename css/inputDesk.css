@@ -108,6 +108,33 @@
     font-style: normal;
     font-display: swap;
   }
+  .faNum{
+    font-family: "IRANSansWeb300";
+}
+@font-face {
+  font-family: "SGKara300";
+  src:
+    url("../fonts/SGKara-Light_p30download.com.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SGKara400";
+  src:
+    url("../fonts/SGKara-Regular_p30download.com.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SGKara700";
+  src:
+    url("../fonts/SGKara-SemiBold_p30download.com.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
   @font-face {
     font-family: "Biotif300";
     src:
@@ -157,17 +184,7 @@
     font-style: normal;
     font-display: swap;
   }
-  /* font-family: "IRANSansWeb(FaNum)400";
-  src: url("../_fonts/IRANSansWebRegular.eot");
-  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
-    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
-    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap; */
-/* } */
+
 @font-face {
   font-family: "IRANYekan300";
   src: url("../_fonts/IRANYekanLight.eot");
@@ -233,7 +250,16 @@
   right: 0;
   overflow-x: hidden;
 }
+.Article-C .Section-4 .wave,
+.Article-C .Section-5 .wave{
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23cdf1ff'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background-color: linear-gradient(180deg, rgba(0, 189, 242, 0.15) 0%, rgba(255, 255, 255, 0) 10.99%);
 
+
+}
 .wave {
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23fff'/%3E%3C/svg%3E");
   position: absolute;
@@ -525,11 +551,14 @@ bottom: 0;
   width: 100%;
   height: 100%;
 }
-.wavess svg path {
+.wavess.sec1 svg path {
   fill: linear-gradient(180deg, rgba(0, 160, 221, 0) 15.96%, rgba(0, 160, 221, 0.5) 99.29%);
   ;
 }
-
+.wavess.sec2 svg path {
+  fill: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.96%, rgb(255, 255, 255) 99.29%);
+  ;
+}
 /* Animation */
 .wave-paths {
   use {
@@ -567,4 +596,215 @@ bottom: 0;
   100% {
     transform: translate3d(-30px, 0, 0);
   }
+}
+.Home-C .Pro-Boxes .Circle{
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.ProjectsSlider .swiper-slide-active {
+  z-index: 3;
+}
+
+.ProjectsSlider .cta {
+  padding: 12% 0;
+}
+.ProjectsSlider .cta__slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  transition: opacity 0.6s ease, transform 0.03s ease;
+  -webkit-transition: opacity 0.6s ease, transform 0.03s ease;
+  -moz-transition: opacity 0.6s ease, transform 0.03s ease;
+  -ms-transition: opacity 0.6s ease, transform 0.03s ease;
+  -o-transition: opacity 0.6s ease, transform 0.03s ease;
+}
+.ProjectsSlider .cta__slider-item {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  margin: 0;
+}
+.ProjectsSlider .cta__slider-item .slide-bigimg {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s ease;
+  width: 100%;
+  height: 100%;
+  background-position: center !important;
+  background-size: cover !important;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.ProjectsSlider .cta__slider-item .entity-img {
+  display: none;
+}
+.ProjectsSlider .swiper-slide{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.ProjectsSlider .slide-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+}
+.ProjectsSlider .slide-inner img{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.ProjectsSlider .swiper-pagination-bullet{
+   width: 8px;
+   height: 8px;
+   background-color: #CECECE;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+   position: static !important;
+   opacity: 1 !important;
+   position: relative !important;
+   transition:all .5s  ;
+   -webkit-transition:all .5s  ;
+   -moz-transition:all .5s  ;
+   -ms-transition:all .5s  ;
+   -o-transition:all .5s  ;
+
+}
+.ProjectsSlider .swiper-pagination-bullet.swiper-pagination-bullet-active::after{
+  content: '';
+  position: absolute;
+  right: -100%;
+  top: -88%;
+  display: flex;
+  width: 23px;
+  height: 23px;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  border: 1px solid white;
+  z-index: 3;
+
+}
+.ProjectsSlider .title h3{
+  opacity:0 ;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.ProjectsSlider .swiper-slide.swiper-slide-active h3{
+  opacity: 1;
+}
+.ProjectsSlider .swiper-button-next::after, .ProjectsSlider .swiper-button-prev::after{
+  content: none;
+}
+.ProjectsSlider .swiper-button-next,
+.ProjectsSlider .swiper-button-prev{
+  width:  auto !important;
+  margin: 0 !important;
+  position: static !important;
+}
+.ProjectsSlider .swiper-button-next svg,
+.ProjectsSlider .swiper-button-prev svg{
+  width: 30px;
+}
+.Home-C .Blog{
+  padding-bottom: 1.5em;
+}
+.Blog p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.Home-C .Blog{
+  border-bottom:1px dashed #01073F80
+}
+.BlogList-C .Blog{
+  border-bottom: 1px solid black;
+}
+.imgarea .img {
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: -4px -4px 40px 0 rgba(255, 255, 255, 0.65), 6px 8px 25px 0 rgba(154, 171, 205, 0.3);
+  background-color: #e2eaf5;
+}
+.forbeauty--cont {
+  position: relative;
+  z-index: 1;
+}
+.imgarea {
+  position: relative;
+  z-index: 1;
+}
+.forbeauty--cont .imgarea .img {
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 27px 6px #2BC0DD1F;
+  background-color: #00A0DD1A;
+  position:relative;
+}
+.forbeauty--cont .forbeauty--wave {
+  position: absolute;
+  top: -7px;
+  right: 17px;
+  z-index: 0;
+  display: block;
+  width: calc(100% - 17px * 2);
+  height: calc(100% - 1px * 2);
+  overflow: hidden;
+  border-radius: 50%;
+}
+.forbeauty--cont .forbeauty--wave canvas {
+  height: 100%;
+}
+.Article-C .GallerysSlider .swiper-pagination-bullet{
+background-color: #D9D9D9 !important;
+opacity: 1 !important;
+}
+.Article-C .GallerysSlider .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #00A0DD80 !important;
+}
+.Article-C .Relateds-Container{
+  /* background: linear-gradient(180deg, rgba(0, 189, 242, 0.15) 0%, rgba(255, 255, 255, 0) 62.99%); */
+
+}
+.Article-C .Product{
+  box-shadow: 1px 1px 9px 0px #00A0DD33;
+
+}
+.Article-C .swiper-scrollbar:hover{
+  cursor: pointer;
 }
