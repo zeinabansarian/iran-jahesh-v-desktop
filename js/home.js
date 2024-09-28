@@ -163,3 +163,31 @@ gsap.to('.VideoBox .Video',{
      }
    }
  });
+
+//  blogs slider
+let swiperBlogs = new Swiper('.swiper-blogs',{
+  speed: 1000,
+  slidesPerView:3,
+  spaceBetween: 40,
+  grabCursor:true,
+  loop: true,
+  autoplay: {
+      // delay: 0,
+  },
+})
+$(function () {
+    
+  /* 共通関数まとめ
+  ********************************************** */
+ 
+  /* raindrops
+  ********************************************** */
+  $('.raindrops').raindrops({
+    color: '#fff',
+    waveLength: 70,
+    waveHeight: 70,
+    rippleSpeed: .05,
+  });
+
+
+})

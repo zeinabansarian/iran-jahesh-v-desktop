@@ -706,3 +706,58 @@ bottom: 0;
 .ProjectsSlider .swiper-button-prev svg{
   width: 30px;
 }
+.Blog{
+  padding-bottom: 1.5em;
+}
+.Blog p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.Blog{
+  border-bottom:1px dashed #01073F80
+}
+.imgarea .img {
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: -4px -4px 40px 0 rgba(255, 255, 255, 0.65), 6px 8px 25px 0 rgba(154, 171, 205, 0.3);
+  background-color: #e2eaf5;
+}
+.forbeauty--cont {
+  position: relative;
+  z-index: 1;
+}
+.imgarea {
+  position: relative;
+  z-index: 1;
+}
+.forbeauty--cont .imgarea .img {
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 27px 6px #2BC0DD1F;
+  background-color: #00A0DD1A;
+  position:relative;
+}
+.forbeauty--cont .forbeauty--wave {
+  position: absolute;
+  top: -7px;
+  right: 17px;
+  z-index: 0;
+  display: block;
+  width: calc(100% - 17px * 2);
+  height: calc(100% - 1px * 2);
+  overflow: hidden;
+  border-radius: 50%;
+}
+.forbeauty--cont .forbeauty--wave canvas {
+  height: 100%;
+}
