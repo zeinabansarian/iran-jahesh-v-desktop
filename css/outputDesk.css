@@ -741,6 +741,26 @@ video {
   top: 50%;
 }
 
+.left-\[31\] {
+  left: 31;
+}
+
+.left-\[31\%\] {
+  left: 31%;
+}
+
+.left-\[21\%\] {
+  left: 21%;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.left-\[24\%\] {
+  left: 24%;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1214,6 +1234,18 @@ video {
 
 .h-svh {
   height: 100svh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[20\%\] {
+  height: 20%;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
 }
 
 .max-h-\[286px\] {
@@ -2944,6 +2976,11 @@ video {
   padding-bottom: 2em;
 }
 
+.px-\[3em\] {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -3136,6 +3173,10 @@ video {
   font-family: SGKara400, SGKara400;
 }
 
+.font-IranYekan500 {
+  font-family: IranYekan500, IranYekan500;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -3213,6 +3254,10 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .uppercase {
@@ -3355,6 +3400,10 @@ video {
   line-height: 82.02px;
 }
 
+.leading-\[51\.89px\] {
+  line-height: 51.89px;
+}
+
 .tracking-\[3\%\] {
   letter-spacing: 3%;
 }
@@ -3451,6 +3500,10 @@ video {
 
 .text-lightGay\/\[0\.3\] {
   color: rgb(229 229 229 / 0.3);
+}
+
+.text-\[\#00A0DD33\] {
+  color: #00A0DD33;
 }
 
 .underline {
