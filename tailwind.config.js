@@ -40,7 +40,8 @@ module.exports = {
       'blue-5':'#0C4DA2',
       'black':'#000000',
       'gray':'#CECECE',
-      'gray-2':'#D3DEEC'
+      'gray-2':'#D3DEEC',
+      'gray-3':'#A1A1A1'
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
@@ -57,7 +58,10 @@ module.exports = {
      'Biotif500':['Biotif500','Biotif500'],
      'Biotif700':['Biotif700','Biotif700'],
      'Biotif800':['Biotif800','Biotif800'],
-     'Biotif900':['Biotif900','Biotif900'],        
+     'Biotif900':['Biotif900','Biotif900'],      
+     'SGKara300' :['SGKara300','SGKara300'],
+     'SGKara400' :['SGKara400','SGKara400'] ,
+     'SGKara700' :['SGKara700','SGKara700'] ,
       
 
     },

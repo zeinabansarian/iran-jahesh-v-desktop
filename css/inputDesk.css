@@ -108,6 +108,33 @@
     font-style: normal;
     font-display: swap;
   }
+  .faNum{
+    font-family: "IRANSansWeb300";
+}
+@font-face {
+  font-family: "SGKara300";
+  src:
+    url("../fonts/SGKara-Light_p30download.com.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SGKara400";
+  src:
+    url("../fonts/SGKara-Regular_p30download.com.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SGKara700";
+  src:
+    url("../fonts/SGKara-SemiBold_p30download.com.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
   @font-face {
     font-family: "Biotif300";
     src:
@@ -157,17 +184,7 @@
     font-style: normal;
     font-display: swap;
   }
-  /* font-family: "IRANSansWeb(FaNum)400";
-  src: url("../_fonts/IRANSansWebRegular.eot");
-  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
-    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
-    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap; */
-/* } */
+
 @font-face {
   font-family: "IRANYekan300";
   src: url("../_fonts/IRANYekanLight.eot");
@@ -706,7 +723,7 @@ bottom: 0;
 .ProjectsSlider .swiper-button-prev svg{
   width: 30px;
 }
-.Blog{
+.Home-C .Blog{
   padding-bottom: 1.5em;
 }
 .Blog p{
@@ -717,8 +734,11 @@ bottom: 0;
   line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.Blog{
+.Home-C .Blog{
   border-bottom:1px dashed #01073F80
+}
+.BlogList-C .Blog{
+  border-bottom: 1px solid black;
 }
 .imgarea .img {
   width: 350px;
