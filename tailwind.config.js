@@ -39,7 +39,8 @@ module.exports = {
       'White':'#ffff',
       'blue-5':'#0C4DA2',
       'black':'#000000',
-      'gray':'#CECECE'
+      'gray':'#CECECE',
+      'gray-2':'#D3DEEC'
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
@@ -102,6 +103,7 @@ module.exports = {
          '87.49':'87.49px',
          '51.82':'51.82px',
          '20.69':'20.69px',
+         '27.34':'27.34px',
        
 
       },

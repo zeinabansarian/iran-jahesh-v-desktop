@@ -118,8 +118,6 @@ gsap.to('.VideoBox .Video',{
    grapSlidesProgress:true,
    grabCursor: true,
    watchSlidesProgress: true,
-   mousewheelControl: true,
-   mousewheel: true,
    pagination: {
     el: '.ProjectsSlider .Pagination',
     clickable: true,
