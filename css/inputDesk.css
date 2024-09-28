@@ -250,7 +250,16 @@
   right: 0;
   overflow-x: hidden;
 }
+.Article-C .Section-4 .wave,
+.Article-C .Section-5 .wave{
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23cdf1ff'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background-color: linear-gradient(180deg, rgba(0, 189, 242, 0.15) 0%, rgba(255, 255, 255, 0) 10.99%);
 
+
+}
 .wave {
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23fff'/%3E%3C/svg%3E");
   position: absolute;
@@ -780,4 +789,22 @@ bottom: 0;
 }
 .forbeauty--cont .forbeauty--wave canvas {
   height: 100%;
+}
+.Article-C .GallerysSlider .swiper-pagination-bullet{
+background-color: #D9D9D9 !important;
+opacity: 1 !important;
+}
+.Article-C .GallerysSlider .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #00A0DD80 !important;
+}
+.Article-C .Relateds-Container{
+  /* background: linear-gradient(180deg, rgba(0, 189, 242, 0.15) 0%, rgba(255, 255, 255, 0) 62.99%); */
+
+}
+.Article-C .Product{
+  box-shadow: 1px 1px 9px 0px #00A0DD33;
+
+}
+.Article-C .swiper-scrollbar:hover{
+  cursor: pointer;
 }
