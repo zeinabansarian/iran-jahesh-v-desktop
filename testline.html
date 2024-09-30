@@ -10,9 +10,23 @@
 <body>
     <main class="Error w-full ">
         <div class="Line w-[50%] right-0 mx-auto absolute left-0 top-0 z-[-1]">
-            <img src="images/—Pngtree—blue round waterdrop illustration_5446285 3.png" alt="" 
-            class="absolute left-0 top-[20%] translate-x-[22%]">
-           <img src="images/Group 38.png" alt="" class="w-full mx-auto h-screen object-contain">
+            <div class="lineWater absolute z-10 left-[0]  h-screen overflow-hidden">
+     
+                  <svg width="798" height="832" viewBox="0 0 798 832" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="linePath" d="M190.596 -1C75.53 125 114.207 86.6312 49.4713 155.733C-276.495 503.685 1175.4 598 700.719 832" stroke="url(#paint0_angular_519_3426)" stroke-width="2"/>
+                    <defs>
+                    <radialGradient id="paint0_angular_519_3426" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(395.983 917.849) rotate(90) scale(2367.28 478.574)">
+                    <stop stop-color="#F6F6F6"/>
+                    <stop offset="0.333333" stop-color="#00A0DD" stop-opacity="0.17"/>
+                    <stop offset="0.364583" stop-color="white" stop-opacity="0.56"/>
+                    <stop offset="1" stop-color="#00A0DD" stop-opacity="0.17"/>
+                    </radialGradient>
+                    </defs>
+                    </svg>
+                    
+                  
+                  <img class="movingImage duration-700" id="movingImage" src="images/drop-a7f56da4e20cecfc0e712317b6ad2865.gif" alt="Moving Image" width="50" height="50" style="position:absolute;width: 0;">
+              </div>
         </div>
          <div class="Box w-full flex flex-col h-[75vh]">
 
@@ -42,9 +56,43 @@
          </div>
             
     </main>
-    <script src="js/swiper-bundle11.0.5.min.js"></script>
     <script src="js/gsap.js"></script>
     <script src="js/scrollTrigger.js"></script>
     <script src="js/MotionPathPlugin.min.js"></script>
+    <script>
+        
+//   قطره
+                     
+let movingImage = document.querySelector(".movingImage")
+movingImage.style.width="revert-layer"
+  gsap.registerPlugin(ScrollTrigger);
+
+// ابتدا مسیر خط SVG را دریافت می‌کنیم
+const path = document.querySelector("#linePath");
+const image = document.querySelector("#movingImage");
+
+const pathLength = path.getTotalLength();
+setTimeout(() => {
+    // GSAP انیمیشن اسکرول:
+    gsap.to(image, {
+      scrollTrigger: {
+        trigger: path, // شروع انیمیشن هنگام ورود خط SVG به ویوپورت
+        start: "top 10%", // زمانی که ابتدای SVG در وسط صفحه باشد
+        end: "bottom center", // پایان انیمیشن زمانی که انتهای SVG در وسط صفحه باشد
+        scrub: 2, // همگام‌سازی انیمیشن با اسکرول
+      },
+      motionPath: {
+        path: path, // مسیری که باید تصویر طی کند
+        align: path, // هم‌راستایی تصویر با مسیر
+        alignOrigin: [0.8, 0], // تنظیم موقعیت تصویر روی مسیر
+      },
+    
+      duration: 2, // مدت زمان انیمیشن
+      ease: "none" // بدون تغییرات سرعت در انیمیشن
+    });
+    
+}, 500);
+
+    </script>
 </body>
 </html>
